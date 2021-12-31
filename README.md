@@ -2,6 +2,10 @@
 
 An unopiniated starter for developing Chrome extensions using Next.js
 
+<p align="center">
+<img src="/images/nextjs-chrome-extension.png" alt="Screenshot of nextjs-chrome-extension" width="616">
+</p>
+  
 ## Getting Started
 
 First, build the project:
@@ -19,6 +23,10 @@ You can start editing the extension by modifying `pages/index.js` or any file in
 ## Add extension to chrome
 
 Open the Extension Management page by navigating to `chrome://extensions`. Enable Developer Mode by clicking the toggle switch next to Developer mode. Click the Load unpacked button and select the `/out` directory.
+
+<p align="center">
+<img src="/images/add-extension-to-chrome.png" alt="Screenshot of chrome://extensions page" width="616">
+</p>
 
 ## Learn More
 
