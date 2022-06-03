@@ -3,7 +3,7 @@
 An unopiniated starter for developing Chrome extensions using Next.js
 
 <p align="center">
-<img src="/images/nextjs-chrome-extension.png" alt="Screenshot of nextjs-chrome-extension" width="616">
+<img src="./images/nextjs-chrome-extension.png" alt="Screenshot of nextjs-chrome-extension" width="616">
 </p>
   
 ## Getting Started
@@ -19,6 +19,11 @@ Second, start developing:
 npm run dev
 ```
 You can start editing the extension by modifying `pages/index.js` or any file in `/public`. The extension will automatically re-build as you make changes.
+
+**🚩 Note**: `gsed` is used during `build` and `development` steps to bundle the project in a Chrome extension. Therefore, you will need to have this CLI installed on your development machine.
+```bash
+brew install gsed // homebrew installation
+```
 
 ## Add extension to chrome
 
