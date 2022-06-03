@@ -8,9 +8,9 @@ An unopiniated starter for developing Chrome extensions using Next.js
   
 ## Getting Started
 
-First, build the project:
+First, install dependencies and build the project:
 ```bash
-npm run build
+npm install && npm run build
 ```
 This will create an `/out` directory that can you can add to Chrome as an extension. The `manifest.json` links `pages/index.js` to the generated `index.html`. On top of that, the `/public/inject.js` script is configured to run on any host url.
 
