@@ -3,18 +3,18 @@
   "private": true,
   "scripts": {
     "dev": "npm-watch",
-    "build": "next build && next export && npm run lint:build",
+    "build": "next build && npm run lint:build",
     "lint:build": "mv out/_next out/assets && gsed -i 's/\\/_next/\\/assets/g' out/**.html",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
     "npm-watch": "^0.11.0"
   },
   "watch": {
